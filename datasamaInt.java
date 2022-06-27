@@ -2,7 +2,6 @@ import javax.swing.JOptionPane;
 public class datasamaInt {
     public static void main(String[] args){
         String input1 = JOptionPane.showInputDialog("Masukkan nilai array pertama(pisahkan dengan koma): ");
-        
         String input2 = JOptionPane.showInputDialog("Masukkan nilai array kedua(pisahkan dengan koma): ");
        
         String[] input1_array = input1.split(",");
